@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.33328.57
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Servidor", "Servidor.csproj", "{50FBF3E7-B470-4273-AEE9-0050216A20AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cliente", "..\Cliente\Cliente.csproj", "{61499D5F-CDD7-4C75-98D8-7BC8149D8695}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cliente", "..\Cliente\Cliente.csproj", "{61499D5F-CDD7-4C75-98D8-7BC8149D8695}"
 	ProjectSection(ProjectDependencies) = postProject
 		{50FBF3E7-B470-4273-AEE9-0050216A20AA} = {50FBF3E7-B470-4273-AEE9-0050216A20AA}
 	EndProjectSection
