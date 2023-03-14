@@ -1,0 +1,205 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Glimpse/1.8.5": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Glimpse.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Glimpse.Core.dll": {}
+        }
+      },
+      "Newtonsoft.Json/6.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Newtonsoft.Json.Glimpse/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Glimpse": "1.8.5",
+          "Newtonsoft.Json": "6.0.3"
+        },
+        "compile": {
+          "lib/net35/Newtonsoft.Json.Glimpse.dll": {}
+        },
+        "runtime": {
+          "lib/net35/Newtonsoft.Json.Glimpse.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Glimpse/1.8.5": {
+      "sha512": "Udied7TJ8cJVTvz0sTochTHZGwfarDfTvsk/8E/ZIpMZcm/Qhauke01kWtb/+hlBteSopaVC4YDyHmeVOxQdQQ==",
+      "type": "package",
+      "path": "glimpse/1.8.5",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "docs/Glimpse.Core.Documentation.chm",
+        "glimpse.1.8.5.nupkg.sha512",
+        "glimpse.nuspec",
+        "lib/net35/Glimpse.Core.dll",
+        "lib/net40/Glimpse.Core.dll",
+        "lib/net45/Glimpse.Core.dll",
+        "tools/glimpse.psm1",
+        "tools/init.ps1",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "Newtonsoft.Json/6.0.3": {
+      "sha512": "kN7Xp8vjnSEiLsyo5ZiKrRFgBU4P8CvcdxGSUBQ3W2OLqDK5rIABHkgN9Yjzh6kZ7BD58Ge19fz5GvfCnwmyGA==",
+      "type": "package",
+      "path": "newtonsoft.json/6.0.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netcore45/Newtonsoft.Json.dll",
+        "lib/netcore45/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl4+wp7+win8/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl4+wp7+win8/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.6.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "Newtonsoft.Json.Glimpse/1.0.2": {
+      "sha512": "SqLAVx/IhjWMMv0Zyb8BReDGPEy/qgfH5LE01wLJ0c9SFSuVC4DPIO9VUdhE1BQl6+GIHkrPZHJwwBg9Hsht9A==",
+      "type": "package",
+      "path": "newtonsoft.json.glimpse/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Newtonsoft.Json.Glimpse.dll",
+        "lib/net35/Newtonsoft.Json.Glimpse.xml",
+        "newtonsoft.json.glimpse.1.0.2.nupkg.sha512",
+        "newtonsoft.json.glimpse.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Newtonsoft.Json.Glimpse >= 1.0.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\danie\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\danie\\OneDrive\\Área de Trabalho\\Minhas Coisas\\Meus Repositórios\\App\\Servidor\\Servidor.csproj",
+      "projectName": "Servidor",
+      "projectPath": "C:\\Users\\danie\\OneDrive\\Área de Trabalho\\Minhas Coisas\\Meus Repositórios\\App\\Servidor\\Servidor.csproj",
+      "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\danie\\OneDrive\\Área de Trabalho\\Minhas Coisas\\Meus Repositórios\\App\\Servidor\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "Newtonsoft.Json.Glimpse": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Glimpse 1.8.5' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto 'net5.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Glimpse",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Newtonsoft.Json 6.0.3' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto 'net5.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Newtonsoft.Json.Glimpse 1.0.2' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto 'net5.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Newtonsoft.Json.Glimpse",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "dgSpecHash": "beFKtzSyx1XQVfDIMcAh5UGyBozlwGqM8+doJvT6ay7bG2pEOlJspkjEaF0S9Tq0N9AaJdE0svwg5+h9Hq2b/g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\danie\\OneDrive\\Área de Trabalho\\Minhas Coisas\\Meus Repositórios\\App\\Cliente\\Cliente.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\danie\\.nuget\\packages\\glimpse\\1.8.5\\glimpse.1.8.5.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\newtonsoft.json\\6.0.3\\newtonsoft.json.6.0.3.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\newtonsoft.json.glimpse\\1.0.2\\newtonsoft.json.glimpse.1.0.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Glimpse 1.8.5' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto 'net5.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Glimpse",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Newtonsoft.Json 6.0.3' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto 'net5.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Newtonsoft.Json.Glimpse 1.0.2' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto 'net5.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Newtonsoft.Json.Glimpse",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}
