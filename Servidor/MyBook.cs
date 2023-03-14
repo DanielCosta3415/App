@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Servidor
 {
-    class MyBook
+    public class MyBook
     {
         public int Id { get; set; }
         public string Author { get; set; }

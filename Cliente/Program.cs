@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using System;
+using Servidor;
 using System.Net.Http;
 using System.Threading.Tasks;
 
@@ -10,7 +11,7 @@ namespace Cliente
         static async Task Main(string[] args)
         {
             using var client = new HttpClient();
-            var response = await client.GetAsync("http://localhost:8080/");
+            var response = await client.GetAsync("http://localhost:5001/api/Books");
 
             if (response.IsSuccessStatusCode)
             {

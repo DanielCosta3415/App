@@ -7,7 +7,7 @@ namespace Servidor
     {
         static async Task Main(string[] args)
         {
-            var server = new MyServer("http://localhost:8080/");
+            var server = new MyServer("http://localhost:5003/");
             await server.IniciateAsync();
         }
     }
